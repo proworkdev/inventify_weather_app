@@ -1,0 +1,6 @@
+export const GET_WEATHER_BY_WOEID_INIT =
+  'weather/Forcast/GET_WEATHER_BY_WOEID_INIT';
+export const GET_WEATHER_BY_WOEID_SUCCESS =
+  'weather/Forcast/GET_LOACTION_WEATHER_SUCCESS';
+export const GET_WEATHER_BY_WOEID_ERROR =
+  'weather/Forcast/GET_LOACTION_WEATHER_ERROR';
