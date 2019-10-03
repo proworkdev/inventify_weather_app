@@ -1,6 +1,10 @@
 # Netlify Weather App
 
 <br />
+<img src="https://raw.githubusercontent.com/proworkdev/inventify_weather_app/master/weather1.png" alt="banner" align="center" />
+
+<br />
+<br />
 
 <div align="center">
   <!-- Dependency Status -->
@@ -26,7 +30,6 @@
 <hr>
 This is a test project built with ReactJS and bunch of other javascript libraries. On the homepage User can search a city or a location. Based on selected City He / She can view the latest weather information and forcast for six days on the next page. The app has been setup by keeping the scalability concern in mind with latest popular technoligies.
 <br>
-<img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
 
 <br>
 ## Quick start
@@ -39,3 +42,5 @@ This is a test project built with ReactJS and bunch of other javascript librarie
 5.  Run `npm run clean` to delete the weather app.
 
 Now you're ready to rumble!
+<br>
+<img src="https://raw.githubusercontent.com/proworkdev/inventify_weather_app/master/weather-app.png" alt="banner" align="center" />
