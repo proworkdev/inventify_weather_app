@@ -5,17 +5,17 @@
 import { createSelector } from 'reselect';
 import { initialState } from './reducer';
 
-const selectHome = state => state.home || initialState;
+const selectWether = state => state.weather || initialState;
 
 const makeSelectLocation = () =>
   createSelector(
-    selectHome,
+    selectWether,
     homeState => homeState.location,
   );
 
 const makeSelectWeather = () =>
   createSelector(
-    selectHome,
+    selectWether,
     homeState => homeState.weather,
   );
-export { selectHome, makeSelectLocation, makeSelectWeather };
+export { selectWether, makeSelectLocation, makeSelectWeather };

@@ -17,6 +17,7 @@ export function* getWeatherForcast(action) {
   try {
     // Call our request helper (see 'utils/request')
     const weather = yield call(request, requestURL);
+    console.log('wether===>>>', weather);
     yield put(successLocationWeather(weather));
   } catch (err) {
     yield put(errorLocation(err));

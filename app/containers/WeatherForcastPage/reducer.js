@@ -17,7 +17,7 @@ import {
 // The initial state of the App
 export const initialState = {
   location: '',
-  weather: [],
+  weather: {},
   isLoading: false,
 };
 
@@ -30,6 +30,7 @@ const waetherReducer = (state = initialState, action) =>
         break;
 
       case GET_WEATHER_BY_WOEID_SUCCESS:
+        console.log('checkred====>>>>', action);
         draft.weather = action.weather;
         break;
 
