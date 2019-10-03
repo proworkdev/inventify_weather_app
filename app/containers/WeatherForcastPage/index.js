@@ -62,15 +62,15 @@ function WeatherForcastPage({
           <div className="temp-celc">
             <span>
               {weather.consolidated_weather
-                ? Math.round(weather.consolidated_weather[0].the_temp) + '° C'
+                ? `${Math.round(weather.consolidated_weather[0].the_temp)}° C`
                 : ''}
             </span>{' '}
             /{' '}
             <span>
               {weather.consolidated_weather
-                ? Math.round(
-                    toFahrenheit(weather.consolidated_weather[0].the_temp),
-                  ) + '° F'
+                ? `${Math.round(
+                  toFahrenheit(weather.consolidated_weather[0].the_temp),
+                )}° F`
                 : ''}
             </span>
           </div>
@@ -102,9 +102,9 @@ function WeatherForcastPage({
                       />
                     </div>
                     <div className="temp-celc">
-                      <span>{Math.round(el.the_temp) + '° C'} </span> /{' '}
+                      <span>{`${Math.round(el.the_temp)}° C`} </span> /{' '}
                       <span>
-                        {Math.round(toFahrenheit(el.the_temp)) + '° F'}{' '}
+                        {`${Math.round(toFahrenheit(el.the_temp))}° F`}{' '}
                       </span>
                     </div>
                     <hr />
