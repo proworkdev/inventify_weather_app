@@ -32,6 +32,7 @@ This is a test project built with ReactJS and bunch of other javascript librarie
 <br>
 
 <br>
+
 ## Quick start
 
 1.  Make sure that you have Node.js v8.15.1 or above and npm v5 or above installed.
